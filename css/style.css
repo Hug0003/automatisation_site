@@ -1,0 +1,314 @@
+:root {
+  --color-header: #2f84eb;
+  --color-principal: #1e3a8a;
+  --color-btn: #fbbf24;
+  --color-footer: #252424;
+  --color-content: #f3f4ed;
+  --color-block: #5e5e5e;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+body {
+  color: black;
+  font-weight: 300;
+  line-height: 1.1;
+  font-family: "Roboto", sans-serif;
+  height: auto; /* Permet à la hauteur de s'ajuster */
+  min-height: 100vh; /* Garantit une hauteur minimale de la page */
+}
+
+.header {
+  background-color: var(--color-header);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 0 3rem;
+  box-shadow: 0 10px 10px rgba(255, 255, 255, 0.25);
+}
+
+.logo {
+  width: 5rem;
+  height: 5rem;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 35rem;
+}
+
+.list_item {
+  font-size: 1.8rem;
+  color: var(--color-content);
+  transition: all 0.3s;
+
+}
+
+.list_item:hover {
+  color: var(--color-btn);
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+.main {
+  padding-top: 5rem;
+  background-color: var(--color-principal);
+  min-height: 100vh; /* Assure que la section main prend au moins toute la hauteur de la fenêtre */
+}
+
+.title {
+  text-align: center;
+  color: var(--color-content);
+  font-size: 4.5rem;
+}
+
+.main_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 70%;
+  padding: 3rem;
+}
+
+.picture_anime {
+  position: relative;
+  grid-column: 1/2;
+  height: 45rem;
+}
+
+.img_wall {
+  position: absolute;
+  object-fit: cover;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 2rem;
+  transition: all 0.3s;
+}
+
+.img_wall_1 {
+  width: 20rem;
+  height: 27rem;
+  top: 30%;
+  z-index: 1;
+}
+
+.img_wall_2 {
+  width: 30rem;
+  height: 20rem;
+  top: 75%;
+  left: 40%;
+  z-index: 2;
+}
+
+.img_wall_3 {
+  width: 20rem;
+  height: 25rem;
+  top: 50%;
+  left: 70%;
+  z-index: 3;
+}
+
+.picture_anime .img_wall:hover {
+  z-index: 10;
+  transform: scale(1.1) translate(-50%, -50%);
+  outline: 1rem solid var(--color-content);
+  outline-offset: 1rem;
+}
+
+.commentaire_piscture {
+  grid-column: 2/3;
+  color: var(--color-content);
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.p_desc_tools {
+  font-size: 4.5rem;
+}
+
+.quote_tools {
+  font-size: 4rem;
+  margin-left: 3.5rem;
+}
+
+.pres_tools {
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5rem;
+}
+
+h3 {
+  background-color: rgba(255, 255, 255, 0.244);
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: var(--color-content);
+}
+
+.tools {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5rem;
+  padding: 3rem;
+}
+
+.make {
+  grid-column: 1/2;
+}
+
+.n8n {
+  grid-column: 2/3;
+}
+
+.zapier {
+  grid-column: 3/4;
+}
+
+.card {
+  perspective: 100rem;
+  -moz-perspective: 100rem;
+  position: relative;
+  height: 20rem;
+  width: 30rem;
+}
+
+.card:hover .front {
+  transform: rotateY(-180deg);
+}
+
+.card:hover .back {
+  transform: rotateY(0deg);
+}
+
+.card-side {
+  background-color: var(--color-content);
+  height: 20rem;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.8s;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  border-radius: 3rem;
+  overflow: hidden;
+}
+
+.front {
+  background-color: var(--color-content);
+}
+
+.back {
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
+  color: var(--color-footer);
+}
+
+h4{
+  font-size: 3rem;
+}
+
+.card p{
+  font-size: 1.5rem;
+}
+
+
+.footer{
+  height: 40rem;
+  background-color: var(--color-footer);
+  color: var(--color-content);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+  }
+
+.footer_prin{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+.name_footer{
+  font-size: 5rem;
+}
+
+.sep{
+  width:50%;
+  height: 3px;
+  background-color: var(--color-btn);
+
+}
+
+.desc_footer{
+  font-size: 2rem;
+  text-align: center;
+  width: 40%;
+}
+
+.social{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 25%;
+}
+
+.social_network{
+  text-decoration: none;
+  color: var(--color-content);
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 1rem;
+  transition: all .2s;
+}
+
+.social_network:hover{
+  color: var(--color-btn);
+}
+
+.politique{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 5rem;
+
+}
+
+.politique_link{
+  color: var(--color-btn);
+  font-size: 1.2rem;
+}
