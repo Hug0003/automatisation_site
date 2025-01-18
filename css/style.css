@@ -64,6 +64,33 @@ body {
   cursor: pointer;
 }
 
+
+@media (max-width: 520px) {
+  .header {
+
+    padding: 0 2rem;
+  }
+
+  .logo {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .list {
+    width: 25rem;
+    justify-content: space-evenly;
+
+  }
+  
+  .list_item {
+    font-size: 1.3rem;
+    color: var(--color-content);
+    transition: all 0.3s;
+  
+  }
+}
+
+
 .main {
   padding-top: 5rem;
   background-color: var(--color-principal);
@@ -81,6 +108,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   height: 70%;
   padding: 3rem;
+  grid-gap: 2rem;
 }
 
 .picture_anime {
@@ -147,6 +175,56 @@ body {
   margin-left: 3.5rem;
 }
 
+
+@media (max-width: 800px) {
+  .main_container {
+    padding: 1.5rem;
+  }
+
+  
+.img_wall_1 {
+  width: 15rem;
+  height: 22rem;
+  left: 55%;
+  top: 25%;
+
+}
+
+.img_wall_2 {
+  width: 21rem;
+  height: 15rem;
+  top: 50%;
+  left: 55%;
+
+}
+
+.img_wall_3 {
+  width: 17em;
+  height: 20rem;
+  left: 55%;
+  top: 75%;
+
+}
+
+.commentaire_piscture {
+  padding: 1.5rem;
+
+}
+
+.p_desc_tools {
+  font-size: 3.5rem;
+  margin-left: 1.5rem;
+
+}
+
+.quote_tools {
+  font-size: 3rem;
+  margin-left: 3.5rem;
+}
+}
+
+
+
 .pres_tools {
   height: 40rem;
   display: flex;
@@ -155,6 +233,7 @@ body {
   align-items: center;
   padding-bottom: 5rem;
 }
+
 
 h3 {
   background-color: rgba(255, 255, 255, 0.244);
@@ -173,6 +252,8 @@ h3 {
   grid-gap: 5rem;
   padding: 3rem;
 }
+
+
 
 .make {
   grid-column: 1/2;
@@ -241,6 +322,44 @@ h4{
   font-size: 1.5rem;
 }
 
+@media (max-width: 1080px) {
+
+  .pres_tools {
+    height: 80rem;
+  }
+  
+
+  .tools{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .card {
+    max-height: 20rem;
+    max-width: 30rem;
+    min-width: 25rem;
+    min-height: 17rem;
+  }
+
+  .make {
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+  }
+  
+  .n8n {
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+  }
+  
+  .zapier {
+    grid-column: 1/2;
+    grid-row: 3/4;
+
+  }
+}
+
 
 .footer{
   height: 40rem;
@@ -276,20 +395,19 @@ h4{
 .desc_footer{
   font-size: 2rem;
   text-align: center;
-  width: 40%;
 }
 
 .social{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 25%;
 }
 
 .social_network{
   text-decoration: none;
   color: var(--color-content);
   cursor: pointer;
+  text-align: center;
   font-size: 2rem;
   padding: 1rem;
   transition: all .2s;
@@ -304,7 +422,8 @@ h4{
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 1rem 5rem;
+  text-align: center;
+  padding: 1rem 3rem;
 
 }
 
