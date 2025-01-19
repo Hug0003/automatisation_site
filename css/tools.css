@@ -221,14 +221,14 @@ body {
 }
 
 h3 {
-  background-color: rgba(255, 255, 255, 0.244);
+  background-color: var(--color-header);
   height: 5rem;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
-  color: var(--color-content);
+  color: var(--color-footer);
 }
 
 .tools {

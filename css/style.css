@@ -62,7 +62,7 @@
     color: var(--color-content);
   }
   
-  .list_item:hover {
+  .list_item:hover a{
     color: var(--color-btn);
     transform: scale(1.01);
     cursor: pointer;
