@@ -221,7 +221,7 @@ body {
 }
 
 h3 {
-  background-color: var(--color-header);
+  background-color: var(--color-content);
   height: 5rem;
   width: 100%;
   display: flex;
