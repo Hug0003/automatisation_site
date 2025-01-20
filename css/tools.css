@@ -23,7 +23,6 @@ body {
   color: black;
   font-weight: 300;
   line-height: 1.1;
-  font-family: "Roboto", sans-serif;
   height: auto; /* Permet à la hauteur de s'ajuster */
   min-height: 100vh; /* Garantit une hauteur minimale de la page */
 }
@@ -225,7 +224,6 @@ h3 {
   align-items: center;
   font-size: 3rem;
   color: var(--color-content);
-  font-family: "Montserrat", sans-serif;
 }
 
 .tools {
@@ -290,7 +288,7 @@ h3 {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  padding: 3rem;
+  padding: 1rem;
   color: var(--color-footer);
 }
 

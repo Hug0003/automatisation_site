@@ -27,6 +27,24 @@
     height: auto; /* Permet à la hauteur de s'ajuster */
     min-height: 100vh; /* Garantit une hauteur minimale de la page */
   }
+
+  h1{
+    font-family: "Mako", sans-serif;
+  }
+
+
+
+  h2{
+    font-family: "Hind Madurai", sans-serif;
+  }
+
+  p{
+    font-family: "Montserrat", sans-serif;
+  }
+
+  
+
+
   
   .header {
     background-color: var(--color-header);
@@ -42,8 +60,6 @@
     text-align: center;
     color: var(--color-content);
     font-size: 4.5rem;
-    font-family: "Montserrat", sans-serif;
-  
   }
   
   .logo {
@@ -68,8 +84,7 @@
   .list_item a{
     text-decoration: none;
     color: var(--color-content);
-  }
-  
+  }  
   .list_item:hover a{
     color: var(--color-btn);
     transform: scale(1.01);
