@@ -115,13 +115,13 @@ img:nth-child(5) {
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 6px 4px;
   cursor: pointer;
   border-radius: 12px;
   max-width: 50rem;
   display: inline-block;
   box-sizing: border-box;
-  height: 50rem;
+  height: 40rem;
 }
 
 .title {
@@ -130,7 +130,7 @@ img:nth-child(5) {
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 35px;
   margin: 12px 8px;
   cursor: pointer;
   border-radius: 12px;
@@ -141,8 +141,8 @@ img:nth-child(5) {
 }
 
 .desc {
-  font-size: 30px;
-  margin: 48px 32px;
+  font-size: 25px;
+  margin: 40px 25px;
 }
 
 .image_20 {
@@ -151,6 +151,7 @@ img:nth-child(5) {
   display: flex;
   margin: auto;
   transform: translateY(-250px);
+  padding: 20px;
 }
 
 .image_23 {
@@ -159,6 +160,7 @@ img:nth-child(5) {
   display: flex;
   flex-direction: row;
   transform: translateY(-300px);
+  padding: 20px;
 }
 
 .triangle{
@@ -179,3 +181,12 @@ img:nth-child(5) {
   margin: 20px;
 }
 
+.body {
+  color: var(--color-text);
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  scale: 1;
+}
