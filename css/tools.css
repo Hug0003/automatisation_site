@@ -95,6 +95,8 @@ body {
   text-align: center;
   color: var(--color-content);
   font-size: 4.5rem;
+  font-family: "Montserrat", sans-serif;
+
 }
 
 .main_container {
@@ -221,14 +223,15 @@ body {
 }
 
 h3 {
-  background-color: var(--color-content);
+  background-color:  rgba(194, 194, 194, 0.5);
   height: 5rem;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
-  color: var(--color-footer);
+  color: var(--color-content);
+  font-family: "Montserrat", sans-serif;
 }
 
 .tools {
