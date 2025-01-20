@@ -91,13 +91,7 @@ body {
   min-height: 100vh; /* Assure que la section main prend au moins toute la hauteur de la fenêtre */
 }
 
-.title {
-  text-align: center;
-  color: var(--color-content);
-  font-size: 4.5rem;
-  font-family: "Montserrat", sans-serif;
 
-}
 
 .main_container {
   display: grid;
