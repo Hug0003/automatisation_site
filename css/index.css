@@ -3,7 +3,7 @@ html, body {
   padding: 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1080px) {
   .pic-ctn {
     height: 200px;
   }
