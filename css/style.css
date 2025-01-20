@@ -20,7 +20,7 @@
     font-size: 62.5%;
   }
   body {
-    color: black;
+    background-color: var(--color-principal);
     font-weight: 300;
     line-height: 1.1;
     font-family: "Roboto", sans-serif;
@@ -67,6 +67,8 @@
     transform: scale(1.01);
     cursor: pointer;
   }
+
+
   
   @media (max-width: 520px) {
     .header {

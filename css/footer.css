@@ -6,6 +6,7 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    transition: all .5s;
   
     }
   
@@ -67,4 +68,9 @@
   .politique_link{
     color: var(--color-btn);
     font-size: 1.2rem;
+  }
+
+  .hidden{
+    opacity: 0;
+    transform: translateY(5rem);
   }

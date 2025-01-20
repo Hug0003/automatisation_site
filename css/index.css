@@ -1,17 +1,8 @@
-html, body {
-  margin: 0;
-  padding: 0;
+
+.main{
+  background-color: var(--color-content);
 }
 
-@media screen and (max-width: 1080px) {
-  .pic-ctn {
-    height: 200px;
-  }
-  .pic-ctn > img {
-    left: calc(50% - 50px);
-  }
-  
-}
 
 .pic-ctn {
   position: relative;
@@ -33,6 +24,17 @@ html, body {
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+
+@media screen and (max-width: 1080px) {
+  .pic-ctn {
+    height: 200px;
+  }
+  .pic-ctn > img {
+    left: calc(50% - 50px);
+  }
+  
 }
 
 .pic-ctn > img {
@@ -178,7 +180,7 @@ img:nth-child(5) {
   color: var(--color-principal);
   line-height: 1.5;
   text-align: center;
-  margin: 20px;
+  padding: 20px;
 }
 
 .body {
