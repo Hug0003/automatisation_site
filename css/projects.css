@@ -26,6 +26,18 @@ body {
     font-size: 4.5rem;
   }
 
+  .description{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20px;
+    background-color: aliceblue;
+  }
+
+  .description p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
   .container {
     display: flex;
     justify-content: center;
