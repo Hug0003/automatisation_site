@@ -1,0 +1,67 @@
+# Bim Bam BOoM
+
+## 📄 Description
+BIM BAM BOoM est un site web dédié à l'automatisation des tâches pour les entreprises. Le site présente les outils d'automatisation disponibles, les projets réalisés par l'équipe, ainsi qu'une section pour en savoir plus sur l'équipe et une page de contact. Le design du site est moderne et responsive, avec une palette de couleurs cohérente et des animations pour améliorer l'expérience utilisateur.
+Ce projet est fait dans le but d'apprendre à travailler en équipe avec Git, ça nous a donné un exemple concret de à quoi sert Git.
+Cela nous à permit aussi d'apprendre de nouvelle technologie dans le monde de l'automatisation mais aussi d'apprendre à utilisé figma pour créer un maquette pour notre site
+
+
+
+## 🎥 Démo Visuelle
+
+
+## ✨ Fonctionnalités
+
+- [x] carousel d'image   
+- [x] bandeau qui défile des logos des entreprises 
+- [x] footer qui se surelève quand on arrive à son niveau
+
+
+
+## 🚀 Installation
+
+### Étapes d'installation
+
+# Clonez le projet
+git clone https://github.com/Hug0003/automatisation_site.git
+
+
+## 📚 Usage
+
+Ce site est conçu pour automatiser certaines tâches spécifiques.
+Il est destiné aux entreprises qui souhaitent gagner du temps et de l'argent en automatisant leurs processus.
+Les outils d'automatisation disponibles sont présentés sur la page d'accueil, avec des exemples de projets réalisés par l'équipe.
+Les visiteurs peuvent en savoir plus sur l'équipe et les contacter via la page de contact.
+Le site est responsive et s'adapte à tous les appareils, offrant une expérience utilisateur optimale.
+
+
+
+## 👥 Contributeurs
+
+- Edouard : [@profil Edouard](https://github.com/CAS-Wyz)  
+- Matteo : [@profil Matteo](https://github.com/matteochamaillard)  
+- Hugo : [@profil Hugo](https://github.com/Hug0003)  
+
+
+
+### Contribuer
+Les pull requests sont les bienvenues. Pour les changements majeurs, ouvrez une issue d'abord pour discuter de ce que vous souhaitez changer.  
+
+
+
+## 🛠️ Technologies Utilisées
+
+- Technologie 1  HTML, CSS
+- Technologie 2  Git, GitHub
+- Technologie 3  Figma
+- Technologie 4  JavaScript
+- Technologie 5  Font Joy
+
+## 📬 Contact
+
+Pour toute question, contactez-moi :  
+- Edouard : [@profil Edouard](https://github.com/CAS-Wyz)  
+- Matteo : [@profil Matteo](https://github.com/matteochamaillard)  
+- Hugo : [@profil Hugo](https://github.com/Hug0003)  
+- E-mail : hugomeuriel@gmail.com
+
