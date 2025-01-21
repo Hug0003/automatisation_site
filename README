@@ -12,44 +12,35 @@ Cela nous à permit aussi d'apprendre de nouvelle technologie dans le monde de l
 
 ## ✨ Fonctionnalités
 
-- [x] Fonctionnalité 1  
-- [x] Fonctionnalité 2  
-- [ ] Fonctionnalité à venir  
+- [x] carousel d'image   
+- [x] bandeau qui défile des logos des entreprises 
+- [x] footer qui se surelève quand on arrive à son niveau
+
 
 
 ## 🚀 Installation
 
-### Prérequis
-- Liste des dépendances (Node.js, Python, etc.)
-- Instructions pour les installer.
-
 ### Étapes d'installation
 
 # Clonez le projet
-git clone https://github.com/utilisateur/projet.git
-
-# Accédez au répertoire
-cd projet
-
-# Installez les dépendances
-npm install  # ou pip install -r requirements.txt
-
-# Lancez le projet
-npm start  # ou python app.py
+git clone https://github.com/Hug0003/automatisation_site.git
 
 
 ## 📚 Usage
 
-Expliquez comment utiliser le projet après installation.  
-Inclure des exemples de commandes ou captures d’écran.
+Ce site est conçu pour automatiser certaines tâches spécifiques.
+Il est destiné aux entreprises qui souhaitent gagner du temps et de l'argent en automatisant leurs processus.
+Les outils d'automatisation disponibles sont présentés sur la page d'accueil, avec des exemples de projets réalisés par l'équipe.
+Les visiteurs peuvent en savoir plus sur l'équipe et les contacter via la page de contact.
+Le site est responsive et s'adapte à tous les appareils, offrant une expérience utilisateur optimale.
 
 
 
 ## 👥 Contributeurs
 
-- Edouard : [@monprofil](https://github.com/CAS-Wyz)  
-- Matteo : [@monprofil](https://github.com/matteochamaillard)  
-- Hugo : [@monprofil](https://github.com/Hug0003)  
+- Edouard : [@profil Edouard](https://github.com/CAS-Wyz)  
+- Matteo : [@profil Matteo](https://github.com/matteochamaillard)  
+- Hugo : [@profil Hugo](https://github.com/Hug0003)  
 
 
 
@@ -69,6 +60,8 @@ Les pull requests sont les bienvenues. Pour les changements majeurs, ouvrez une 
 ## 📬 Contact
 
 Pour toute question, contactez-moi :  
-- GitHub : [@monprofil](https://github.com/Hug0003)  
+- Edouard : [@profil Edouard](https://github.com/CAS-Wyz)  
+- Matteo : [@profil Matteo](https://github.com/matteochamaillard)  
+- Hugo : [@profil Hugo](https://github.com/Hug0003)  
 - E-mail : hugomeuriel@gmail.com
 
