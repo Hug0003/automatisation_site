@@ -80,9 +80,8 @@ body {
   }
 
   .project-card img {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
-    margin-bottom: 15px;
     border-radius: 8px;
   }
 
@@ -93,4 +92,13 @@ body {
 
   .project-card p {
     font-size: 0.9em;
+  }
+
+
+  .two {
+    margin-top: 40px; /* Ajoute un espace supplémentaire au-dessus de la troisième card */
+  }
+
+  .third {
+    margin-top: 46px; /* Ajoute un espace supplémentaire au-dessus de la troisième card */
   }
