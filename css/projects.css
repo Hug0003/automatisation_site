@@ -50,7 +50,7 @@ body {
 .project-card {
     background-color: var(--color-content);
     color: var(--color-principal);
-    border-radius: var(--border-radius-md);
+    border-radius: var(--border-radius-sm);
     width: 25rem;
     min-height: 7rem;
     padding: var(--spacing-xs) var(--spacing-lg);

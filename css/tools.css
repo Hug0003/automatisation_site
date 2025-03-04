@@ -11,7 +11,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  color: black;
+  color: var(--color-footer);
   font-weight: 300;
   line-height: 1.1;
   height: auto; /* Permet à la hauteur de s'ajuster */
@@ -201,25 +201,25 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 5rem;
+  padding-bottom: var(--spacing-xl);
 }
 
 h3 {
-  background-color:  rgba(194, 194, 194, 0.5);
-  height: 5rem;
+  background-color: rgba(194, 194, 194, 0.5);
+  height: var(--spacing-xl);
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
+  font-size: var(--font-size-large);
   color: var(--color-content);
 }
 
 .tools {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 5rem;
-  padding: 3rem;
+  grid-gap: var(--spacing-xl);
+  padding: var(--spacing-md);
 }
 
 .make {
@@ -258,11 +258,11 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.8s;
+  transition: var(--transition-slow);
   top: 0;
   left: 0;
   backface-visibility: hidden;
-  border-radius: 3rem;
+  border-radius: var(--border-radius-lg);
   overflow: hidden;
 }
 
@@ -277,26 +277,25 @@ h3 {
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  padding: 1rem;
+  padding: var(--spacing-xs);
   color: var(--color-footer);
 }
 
 h4 {
-  font-size: 3rem;
+  font-size: var(--font-size-large);
 }
 
 .card p {
-  font-size: 1.5rem;
+  font-size: var(--font-size-regular);
 }
 
-@media (max-width: 1080px) {
+@media (max-width: var(--breakpoint-laptop)) {
   .pres_tools {
     height: 80rem;
   }
 
   .tools {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
   }
 
   .card {

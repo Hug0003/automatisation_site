@@ -1,3 +1,4 @@
+
 # Bim Bam BOoM
 
 ## 📄 Description
@@ -42,6 +43,15 @@ Les outils d'automatisation disponibles sont présentés sur la page d'accueil, 
 Les visiteurs peuvent en savoir plus sur l'équipe et les contacter via la page de contact.
 Le site est responsive et s'adapte à tous les appareils, offrant une expérience utilisateur optimale.
 
+## Qui a fait quoi 
+
+
+## Problèmes
+Hugo : j'ai réalisé la page nos outils et j'ai eu des complications sur les cartes qui se retournent, j'ai donc récupérer un ancien projet ou j'avais déjà fait cette fonctionnalité puis j'ai adapté le code.  
+
+Edouard : Je me suis occupé de l'index et du code css qui va avec. J'ai eu plusieurs problèmes avec la fin de mon code CSS. J'ai eu du mal à bien cadrer les images pour le carrousel et avec la banderole des logos qui n'étaient pas tous de la même taille.
+
+Mattéo : 
 
 
 ## 👥 Contributeurs
@@ -52,8 +62,6 @@ Le site est responsive et s'adapte à tous les appareils, offrant une expérienc
 
 
 
-### Contribuer
-Les pull requests sont les bienvenues. Pour les changements majeurs, ouvrez une issue d'abord pour discuter de ce que vous souhaitez changer.  
 
 
 
@@ -72,3 +80,6 @@ Pour toute question, contactez-moi :
 - Matteo : [@profil Matteo](https://github.com/matteochamaillard)  
 - Hugo : [@profil Hugo](https://github.com/Hug0003)  
 - E-mail : hugomeuriel@gmail.com
+
+### Contribuer
+Les pull requests sont les bienvenues. Pour les changements majeurs, ouvrez une issue d'abord pour discuter de ce que vous souhaitez changer.  
