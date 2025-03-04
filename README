@@ -7,10 +7,22 @@ Ce projet est fait dans le but d'apprendre à travailler en équipe avec Git, ç
 Cela nous à permit aussi d'apprendre de nouvelle technologie dans le monde de l'automatisation mais aussi d'apprendre à utilisé figma pour créer un maquette pour notre site
 
 ## Commande git du projet
+
+### initialisation projet:
+![alt text](<assets/screen/init_repo.png>)
+
+### commande envoie fichier et dossier:
 ![alt text](<assets/screen/image.png>)
+
+### commande merge une branch
 ![alt text](<assets/screen/merge.png>)
+
+### erreur merge 
 ![alt text](<assets/screen/block_note.png>)
+
+### graph des commits
 ![alt text](<assets/screen/graph.png>)
+
 ## 🎥 Démo Visuelle
 
 ![alt text](assets/image_site/index.png)
