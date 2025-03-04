@@ -47,11 +47,13 @@ Le site est responsive et s'adapte à tous les appareils, offrant une expérienc
 
 
 ## Problèmes
-Hugo : j'ai réalisé la page nos outils et j'ai eu des complications sur les cartes qui se retournent, j'ai donc récupérer un ancien projet ou j'avais déjà fait cette fonctionnalité puis j'ai adapté le code.  
+
+Hugo : j'ai réalisé la page nos outils et j'ai eu des complications sur les cartes qui se retournent, j'ai donc récupérer un ancien projet ou j'avais déjà fait cette fonctionnalité puis j'ai adapté le code.
+
 
 Edouard : Je me suis occupé de l'index et du code css qui va avec. J'ai eu plusieurs problèmes avec la fin de mon code CSS. J'ai eu du mal à bien cadrer les images pour le carrousel et avec la banderole des logos qui n'étaient pas tous de la même taille.
 
-Mattéo : 
+Mattéo : Je me suis occupé de la page nos projets sur une branch secondaire et j'ai eu un conflit quand j'ai voulu le merge sur la page principal que j'ai résolu via des tests comme avec des "git status" j'ai donc verifié les fichiers en conflits que j'ai vérifié à la main.
 
 
 ## 👥 Contributeurs
@@ -59,9 +61,6 @@ Mattéo :
 - Edouard : [@profil Edouard](https://github.com/CAS-Wyz)  
 - Matteo : [@profil Matteo](https://github.com/matteochamaillard)  
 - Hugo : [@profil Hugo](https://github.com/Hug0003)  
-
-
-
 
 
 
@@ -84,9 +83,3 @@ Pour toute question, contactez-moi :
 ### Contribuer
 Les pull requests sont les bienvenues. Pour les changements majeurs, ouvrez une issue d'abord pour discuter de ce que vous souhaitez changer.  
 
-### Contribuer
-Les pull requests sont les bienvenues. Pour les changements majeurs, ouvrez une issue d'abord pour discuter de ce que vous souhaitez changer.  
-
-## Problèmes rencontrés
-
-Edouard : Je me suis occupé de l'index et du code css qui va avec. J'ai eu plusieurs problèmes avec la fin de mon code CSS. J'ai eu du mal à bien cadrer les images pour le carrousel et avec la banderolle des logos qui n'étaient pas tous de la même taille.
