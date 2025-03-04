@@ -1,4 +1,8 @@
 
+.body{
+  background-color: var(--color-content);
+}
+
 .main{
   background-color: var(--color-content);
   overflow: hidden;
