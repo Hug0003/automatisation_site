@@ -6,7 +6,7 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    transition: all .5s;
+    transition: var(--transition-slow);
   
     }
   
@@ -20,7 +20,7 @@
   }
   
   .name_footer{
-    font-size: 5rem;
+    font-size: var(--font-size-xlarge);
   }
   
   .sep{
@@ -31,7 +31,7 @@
   }
   
   .desc_footer{
-    font-size: 2rem;
+    font-size: var(--font-size-medium);
     text-align: center;
   }
   
@@ -46,9 +46,9 @@
     color: var(--color-content);
     cursor: pointer;
     text-align: center;
-    font-size: 2rem;
-    padding: 1rem;
-    transition: all .2s;
+    font-size: var(--font-size-medium);
+    padding: var(--spacing-xs);
+    transition: var(--transition-default);
   }
   
   .social_network:hover{
@@ -61,16 +61,16 @@
     align-items: center;
     width: 100%;
     text-align: center;
-    padding: 1rem 3rem;
+    padding: var(--spacing-xs) var(--spacing-md);
   
   }
   
   .politique_link{
     color: var(--color-btn);
-    font-size: 1.2rem;
+    font-size: var(--font-size-small);
   }
 
   .hidden{
     opacity: 0;
-    transform: translateY(5rem);
+    transform: translateY(var(--spacing-xl));
   }
