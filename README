@@ -8,23 +8,27 @@ Cela nous à permit aussi d'apprendre de nouvelle technologie dans le monde de l
 
 ## Commande git du projet
 
-### initialisation projet:
+### 1. Configuration Globale
 ![alt text](<assets/screen/init_repo.png>)
 
-### commande envoie fichier et dossier:
+### 2. Commande envoie fichier et dossier:
 ![alt text](<assets/screen/image.png>)
 
-### commande merge une branch
+### 3. Gestion des Branches
 ![alt text](<assets/screen/merge.png>)
 
-### erreur merge 
-![alt text](<assets/screen/block_note.png>)
+### 4. Historique des commits 
+![alt text](<assets/screen/commits.png>)
 
-### graph des commits
+### 5. Status
+![alt text](<assets/screen/status.png>)
+
+
+### 6. Graph des branches
 ![alt text](<assets/screen/graph.png>)
 
-## 🎥 Démo Visuelle
 
+## 🎥 Démo Visuelle
 ![alt text](assets/image_site/index.png)
 ![alt text](assets/image_site/projets.png)
 ![alt text](assets/image_site/tools.png)
@@ -32,65 +36,62 @@ Cela nous à permit aussi d'apprendre de nouvelle technologie dans le monde de l
 ![alt text](assets/image_site/aPropos.png)
 
 
-## ✨ Fonctionnalités
-
-- [x] carousel d'image   
-- [x] bandeau qui défile des logos des entreprises 
-- [x] footer qui se surelève quand on arrive à son niveau
-- [x] carte  qui se retourne au hover 
-
-## 🚀 Installation
-
-### Étapes d'installation
-
-# Clonez le projet
-git clone https://github.com/Hug0003/automatisation_site.git
-
-
 ## 📚 Usage
-
 Ce site est conçu pour automatiser certaines tâches spécifiques.
 Il est destiné aux entreprises qui souhaitent gagner du temps et de l'argent en automatisant leurs processus.
 Les outils d'automatisation disponibles sont présentés sur la page d'accueil, avec des exemples de projets réalisés par l'équipe.
 Les visiteurs peuvent en savoir plus sur l'équipe et les contacter via la page de contact.
 Le site est responsive et s'adapte à tous les appareils, offrant une expérience utilisateur optimale.
 
-## Qui a fait quoi 
+## ✨ Fonctionnalités
+- [x] Carousel d'image   
+- [x] Bandeau qui défile des logos des entreprises 
+- [x] Footer qui se surelève quand on arrive à son niveau
+- [x] Carte  qui se retourne au hover 
+
+
+# 🚀 Clonez le projet
+git clone https://github.com/Hug0003/automatisation_site.git
+
+# Nombre de commits
+- Commande : git rev-list --count main
+- Résultat : 62
+
+# Nombre de commits par participants 
+- Edouard : 20
+- Matteo : 12
+- Hugo : 30
 
 
 ## Problèmes
-
-Hugo : j'ai réalisé la page nos outils et j'ai eu des complications sur les cartes qui se retournent, j'ai donc récupérer un ancien projet ou j'avais déjà fait cette fonctionnalité puis j'ai adapté le code.
-
-
-Edouard : Je me suis occupé de l'index et du code css qui va avec. J'ai eu plusieurs problèmes avec la fin de mon code CSS. J'ai eu du mal à bien cadrer les images pour le carrousel et avec la banderole des logos qui n'étaient pas tous de la même taille.
-
-Mattéo : Je me suis occupé de la page nos projets sur une branch secondaire et j'ai eu un conflit quand j'ai voulu le merge sur la page principal que j'ai résolu via des tests comme avec des "git status" j'ai donc verifié les fichiers en conflits que j'ai vérifié à la main.
+Hugo : j'ai eu un conflit quand j'ai voulu push mes modifications alors que je n'avais pas pull les modifications d'Edouard, donc un conflit s'est crée car on avait modifié le même fichier, nous avons donc réparé les fichiers à la main pour mettre les bonnes modifications dans le fichier. Ensuite Edouard à pull et les 2 modifications étaient présentes, les miennes et les siennes. Nous avons donc supprimé les modifications inutiles et tout est redevenu normal.
 
 
-## 👥 Contributeurs
+Edouard : Je me suis occupé de l'index et du code css qui va avec. J'ai eu plusieurs problèmes avec la fin de mon code CSS. J'ai eu du mal à bien cadrer les images pour le carrousel et avec la banderole des logos qui n'étaient pas tous de la même taille.
 
-- Edouard : [@profil Edouard](https://github.com/CAS-Wyz)  
-- Matteo : [@profil Matteo](https://github.com/matteochamaillard)  
-- Hugo : [@profil Hugo](https://github.com/Hug0003)  
+Mattéo : Je me suis occupé de la page nos projets sur une branch secondaire et j'ai eu un conflit quand j'ai voulu le merge sur la page principal que j'ai résolu via des tests comme avec des "git status" j'ai donc verifié les fichiers en conflits que j'ai pu resoudre.
 
 
+# Retrospective
+Points positifs : Entraide et apprentissage grâce aux collègues. De plus c'est un bon entraînement pour le code et l'utilisation de git/GitHub de façon plus professionnelle et apprendre à travailler en équipe
+
+Difficultés rencontrés : Il faut connaître les commandes git et bien savoir les utiliser car une erreur de manipulation et tout est supprimé ou changé
+
+On a donc appris à mieux utiliser Git et à gérer des conflits et les éviter un maximum et bien sur à travailler en équipe 
 
 ## 🛠️ Technologies Utilisées
-
 - Technologie 1  HTML, CSS
 - Technologie 2  Git, GitHub
 - Technologie 3  Figma
 - Technologie 4  JavaScript
 - Technologie 5  Font Joy
 
-## 📬 Contact
 
+## 📬 Contact
 Pour toute question, contactez-moi :  
 - Edouard : [@profil Edouard](https://github.com/CAS-Wyz)  
 - Matteo : [@profil Matteo](https://github.com/matteochamaillard)  
 - Hugo : [@profil Hugo](https://github.com/Hug0003)  
-- E-mail : hugomeuriel@gmail.com
 
 ### Contribuer
 Les pull requests sont les bienvenues. Pour les changements majeurs, ouvrez une issue d'abord pour discuter de ce que vous souhaitez changer.  
