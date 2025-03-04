@@ -26,7 +26,6 @@ Cela nous à permit aussi d'apprendre de nouvelle technologie dans le monde de l
 - [x] footer qui se surelève quand on arrive à son niveau
 
 
-
 ## 🚀 Installation
 
 ### Étapes d'installation
@@ -73,4 +72,29 @@ Pour toute question, contactez-moi :
 - Matteo : [@profil Matteo](https://github.com/matteochamaillard)  
 - Hugo : [@profil Hugo](https://github.com/Hug0003)  
 - E-mail : hugomeuriel@gmail.com
+
+.button {
+    transition: var(--transition-default);
+}
+
+@media (max-width: var(--breakpoint-mobile)) {
+    /* styles */
+}
+
+.element {
+    box-shadow: var(--shadow-md);
+}
+
+.card {
+    border-radius: var(--border-radius-md);
+}
+
+.container {
+    padding: var(--spacing-md);
+    margin: var(--spacing-sm);
+}
+
+.title {
+    font-size: var(--font-size-xlarge);
+}
 

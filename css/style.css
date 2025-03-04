@@ -5,7 +5,41 @@
     --color-footer: #252424;
     --color-content: #f3f4ed;
     --color-block: #5e5e5e;
-  }
+
+    /* Tailles de police */
+    --font-size-small: 1.2rem;
+    --font-size-regular: 1.6rem;
+    --font-size-medium: 2rem;
+    --font-size-large: 3rem;
+    --font-size-xlarge: 4.5rem;
+
+    /* Espacements */
+    --spacing-xs: 1rem;
+    --spacing-sm: 2rem;
+    --spacing-md: 3rem;
+    --spacing-lg: 4rem;
+    --spacing-xl: 5rem;
+
+    /* Border radius */
+    --border-radius-sm: 1rem;
+    --border-radius-md: 2rem;
+    --border-radius-lg: 3rem;
+
+    /* Box shadows */
+    --shadow-sm: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 10px 10px rgba(0, 0, 0, 0.2);
+    --shadow-lg: 10px 10px 20px rgba(0, 0, 0, 0.2);
+
+    /* Media queries breakpoints */
+    --breakpoint-mobile: 520px;
+    --breakpoint-tablet: 768px;
+    --breakpoint-laptop: 1024px;
+    --breakpoint-desktop: 1200px;
+
+    /* Transitions */
+    --transition-default: all 0.3s;
+    --transition-slow: all 0.5s;
+}
   
   *,
   ::before,
